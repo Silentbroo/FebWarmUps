@@ -37,7 +37,7 @@ int main()
 		return -1;
 	}
 	
-	ALLEGRO_FONT *font = al_load_ttf_font("LD.ttf", 300, 0);
+	ALLEGRO_FONT *font = al_load_ttf_font("LD.ttf", 55, 0);
 
 	display = al_create_display(640, 480);
 
